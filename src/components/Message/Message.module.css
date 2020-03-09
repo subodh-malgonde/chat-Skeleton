@@ -1,0 +1,31 @@
+.Message{
+    width: 56.12%;
+    height: auto;
+    margin: 24px 0 16px 24px;
+    background-color: #F8F9FA;
+    border-radius: 16px;
+    position: relative;
+    font-weight: 300;
+    font-size: 16px;
+    /* left: 30%; */
+}
+.MessageWrapper{
+    width: 87%;
+    height: auto;
+    padding: 18px 32px 8px 24px;
+    text-align: left;
+}
+.timeWrap{
+    width: 100%;
+    text-align: right;
+    padding-right: 24px;
+    padding-bottom: 16px;
+}
+span{
+    display: inline-block;
+    width: auto;
+    padding-right: 6px;
+}
+.time{
+    font-size:12px;
+}

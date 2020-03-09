@@ -1,0 +1,32 @@
+.AdvisorDetails{
+    /* display: table; */
+    width: 392px;
+    height: 540px;
+    /* background: red; */
+    padding-top: 24px;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08); */
+}
+.ProfileWrap{
+    display: table;
+    width: 100%;
+    height: 120px;
+    /* background-color: tomato; */
+}
+.ProfileImage{
+    display: table-cell;
+    width: 150px;
+}
+.ProfileDetailWrap{
+    display: table-cell;
+    vertical-align: top;
+}
+.DetailWrap{
+    display: table;
+    width: 100%;
+}
+.Experience{
+    display: table-cell;
+    width: 33.3%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}

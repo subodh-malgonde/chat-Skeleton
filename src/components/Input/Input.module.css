@@ -1,0 +1,53 @@
+.Input{
+    display: table;
+    width: 93.8%;
+    height: 64px;
+    margin: 24px;
+    text-align: left;
+    /* background-color: #FFFFFF; */
+    border: 1px solid #E1E7EC;
+    /* box-sizing: border-box; */
+    border-radius: 8px;
+}
+.inputWrap{
+    display: table-cell;
+    width: 73%;
+    vertical-align: middle;
+}
+input{
+    width: 100%;
+    height: 100%;
+    padding-left:24px;
+    background-color: transparent;
+    color: #8895A7;
+    /* background-color: #FFFFFF; */
+    /* border: 1px solid #E1E7EC; */
+    border: none;
+    font-size: 16px;
+    /* box-sizing: border-box; */
+    /* border-radius: 8px; */
+}
+input:focus{
+    outline: none;
+}
+.emptyLine{
+    display: table-cell;
+    height: 32px;
+    /* border-right: 1px solid #E1E7EC; */
+    vertical-align: middle;
+}
+.attachFileWrap{
+    display: table-cell;
+    padding-left: 30px;
+    vertical-align: middle;
+}
+.sendIconWrap{
+    display: table-cell;
+    /* width: 32px; */
+    /* height: 28px; */
+    vertical-align: middle;
+    padding-right: 24px;
+}
+.emptyCell{
+    display: table-cell;
+}
