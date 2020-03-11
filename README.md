@@ -3,7 +3,7 @@
 Create a React Project using 
 npx create-react-app chat-skeleton
 
-copy this file in the src folder
+copy the file in the src folder
 
 In the project directory, you can run:
 
