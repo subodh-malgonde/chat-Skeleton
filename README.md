@@ -2,10 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * ### Clone this repository
 
+----
 * ## In the Project directory install all the dependencies using:
          `npm install`
 
-
+----
 * ### Run the project using 
          `npm start`
 
