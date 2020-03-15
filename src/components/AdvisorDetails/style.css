@@ -1,0 +1,122 @@
+@import "~antd/dist/antd.css";
+@font-face {
+  font-family: "MuseoSansCyrlW03-300";
+  src: url("../../assets/Fonts/Museo\ Sans\ Cyrl\ W03\ 300.otf");
+}
+.advisor-details-wrapper {
+  padding: 24px;
+  width: 392px;
+  margin-right: 24px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.advisor-data {
+  font-family: "MuseoSansCyrlW03-300";
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.advisor-data .advisor-img img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+.advisor-personal-info {
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 20px;
+  text-align: left;
+  padding-top: 10px;
+}
+.advisor-personal-info .advisor-name {
+  color: #3d4852;
+  font-size: 22px;
+  line-height: 32px;
+  padding-bottom: 5px;
+  display: block;
+}
+.advisor-personal-info .advisor-title {
+  color: #8895a7;
+  font-size: 12px;
+  line-height: 18px;
+  padding-bottom: 10px;
+  display: block;
+}
+.advisor-status {
+  padding-bottom: 20px;
+}
+.advisor-status .status {
+  color: #b8c4ce;
+  font-size: 12px;
+  line-height: 18px;
+  padding-left: 10px;
+}
+.advisor-phone .phone-number {
+  color: #1f49ad;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 7px;
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #e1e7ec;
+  border-radius: 50%;
+  display: inline-block;
+}
+.my-divider {
+  border: 0.5px solid #e1e7ec;
+  width: 344px;
+  margin: auto;
+}
+
+.statistics-details {
+  font-family: "MuseoSansCyrlW03-300";
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.statistics-details div {
+  margin-right: 50px;
+}
+.statistics-details div .statistics-category {
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b8c4ce;
+}
+.statistics-details div .statistics-style {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f49ad;
+}
+
+.advisor-bio .bio {
+  font-family: "MuseoSansCyrlW03-300";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 25px;
+  text-align: left;
+  color: #8895a7;
+  padding-right: 25px;
+}
+.more-btn {
+  font-family: "MuseoSansCyrlW03-300";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #1f49ad;
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;
+}

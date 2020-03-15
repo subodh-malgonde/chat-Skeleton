@@ -1,0 +1,127 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+
+@font-face {
+  font-family: "MuseoSansCyrlW03-300";
+  src: url("../../assets/Fonts/Museo\ Sans\ Cyrl\ W03\ 300.otf");
+}
+a:hover {
+  color: #000000 !important;
+}
+.header-layout {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  height: 72px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-menu {
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+.logo {
+  padding-top: 5px;
+}
+.logo .logo-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4d7cea;
+}
+.logo .logo-text:hover {
+  color: #4d7cea !important;
+}
+.header-layout .ant-layout-header {
+  background: transparent;
+  padding: 0px 100px 0px 100px !important;
+}
+.header .ant-menu-horizontal {
+  border-bottom: none;
+}
+.header .ant-menu-item {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.messages-wrapper {
+  position: relative;
+  min-width: 10px;
+  min-height: 10px;
+}
+.messages-icon {
+  vertical-align: middle;
+}
+.messages-number-wrapper {
+  position: absolute;
+  background-color: #1f49ad;
+  width: 21px;
+  height: 20px;
+  border-radius: 100px;
+  border: 2px solid #ffffff;
+  top: 6px;
+  right: -5px;
+}
+.messages-number {
+  color: #fff;
+  position: absolute;
+  font-family: "MuseoSansCyrlW03-300";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  left: 0.5px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.header .nav-clients {
+  font-family: "MuseoSansCyrlW03-300";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000 !important;
+}
+.divider-wrapper {
+  cursor: auto;
+}
+.divider-wrapper .navmenu-divider {
+  height: 40px;
+}
+.divider-wrapper .navmenu-divider:hover {
+  border-bottom: none;
+}
+
+.divider-wrapper:hover,
+.divider-wrapper:focus,
+.divider-wrapper:active,
+.divider-wrapper:active::selection {
+  border-bottom: 2px solid transparent !important;
+  color: inherit !important;
+}
+.ant-menu-horizontal > .ant-menu-item-selected {
+  border-bottom: 2px solid transparent !important;
+}
+
+.logout-text {
+  display: inline-block;
+  margin-right: 10px;
+  font-family: "MuseoSansCyrlW03-300";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.logout-icon {
+  height: 100%;
+  vertical-align: middle;
+}

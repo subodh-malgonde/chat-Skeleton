@@ -1,0 +1,106 @@
+@import "~antd/dist/antd.css";
+
+@font-face {
+  font-family: "MuseoSansCyrlW03-300";
+  src: url("../../assets/Fonts/Museo\ Sans\ Cyrl\ W03\ 300.otf");
+}
+@font-face {
+  font-family: "MuseoSansCyrlW03-100";
+  src: url("../../assets/Fonts/Museo\ Sans\ Cyrl\ W03\ 100.otf");
+}
+
+.chat-wrapper {
+  width: 784px;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+.chat-wrapper .received-message,
+.chat-wrapper .sent-message {
+  width: 440px;
+  border-radius: 16px;
+  position: relative;
+  font-family: "MuseoSansCyrlW03-100";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.chat-wrapper .received-message {
+  background: #e1e7ec;
+  text-align: left;
+  margin-bottom: 16px;
+  color: #000000;
+}
+.chat-wrapper .sent-message {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: left;
+  margin-bottom: 16px;
+  background: #cddcfe;
+  color: #3d4852;
+}
+.chat-wrapper .received-message .received-text,
+.chat-wrapper .sent-message .sent-text {
+  padding: 16px 32px 42px 24px;
+  margin: 0px;
+}
+.chat-wrapper .received-message .details,
+.chat-wrapper .sent-message .details {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8895a7;
+}
+.chat-wrapper .received-message .details {
+  position: absolute;
+  left: 360px;
+  z-index: 1;
+  bottom: 12px;
+}
+.chat-wrapper .sent-message .details {
+  position: absolute;
+  left: 335px;
+  bottom: 12px;
+}
+.chat-wrapper .sent-message .details .time {
+  margin-right: 14px;
+}
+.read-ticks {
+  position: relative;
+}
+.read-ticks .first-tick {
+  left: 7px;
+  position: absolute;
+}
+.message-date {
+  position: relative;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  font-family: "MuseoSansCyrlW03-100";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.date {
+  font-family: "MuseoSansCyrlW03-100";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 80px;
+  height: 24px;
+  position: absolute;
+  left: 45%;
+  z-index: 1;
+  bottom: -10px;
+  background: #fff;
+  color: #8895a7;
+  padding: 0px 5px;
+}
+.message-divider {
+  border: 0.5px solid #e1e7ec;
+}

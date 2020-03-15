@@ -1,0 +1,71 @@
+/* ============================ Medias =========================== */
+
+@media (min-width: 1200px) {
+  .advisor-details-wrapper {
+    margin-left: 24px;
+  }
+}
+
+/* ============================ Wide Tablets ============================ */
+
+@media (max-width: 1199px) {
+  .advisor-details-wrapper {
+    margin-left: 24px;
+  }
+}
+
+/* ============================ Tablets ============================ */
+
+@media (max-width: 991px) {
+  .advisor-details-wrapper {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .advisor-details-wrapper {
+    padding: 24px;
+    min-width: 248px;
+  }
+  .advisor-data {
+    display: block;
+    padding-bottom: 12px;
+  }
+  .advisor-personal-info {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .my-divider {
+    width: 100%;
+  }
+  .statistics-details {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .statistics-details div {
+    margin-right: 0px;
+  }
+  .advisor-status {
+    padding-bottom: 10px;
+  }
+  .advisor-personal-info .advisor-name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .advisor-personal-info .advisor-title,
+  .advisor-status {
+    padding-bottom: 5px;
+  }
+  .advisor-data .advisor-img img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+/* ============================ Smart Phones ============================ */
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 359px) {
+}

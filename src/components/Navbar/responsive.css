@@ -1,0 +1,25 @@
+/* ============================ Medias =========================== */
+
+@media (min-width: 1200px) {
+}
+
+/* ============================ Wide Tablets ============================ */
+
+@media (max-width: 1199px) {
+  .header-layout .ant-layout-header {
+    padding: 0px 40px 0px 40px !important;
+  }
+}
+
+/* ============================ Tablets ============================ */
+
+@media (max-width: 991px) {
+}
+
+/* ============================ Smart Phones ============================ */
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 359px) {
+}
