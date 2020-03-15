@@ -2,8 +2,20 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 
 @font-face {
-  font-family: "MuseoSansCyrlW03-300";
-  src: url("../../assets/Fonts/Museo\ Sans\ Cyrl\ W03\ 300.otf");
+  font-family: "MuseoSansCyrl";
+  src: url("../../assets/Fonts/MuseoSansCyrl-300.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("../../assets/Fonts/MuseoSansCyrl-500.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("../../assets/Fonts/MuseoSansCyrl-700.otf");
+  font-weight: 700;
 }
 a:hover {
   color: #000000 !important;
@@ -72,7 +84,7 @@ a:hover {
 .messages-number {
   color: #fff;
   position: absolute;
-  font-family: "MuseoSansCyrlW03-300";
+  font-family: "MuseoSansCyrl";
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -83,7 +95,7 @@ a:hover {
   width: 100%;
 }
 .header .nav-clients {
-  font-family: "MuseoSansCyrlW03-300";
+  font-family: "MuseoSansCyrl";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -114,7 +126,7 @@ a:hover {
 .logout-text {
   display: inline-block;
   margin-right: 10px;
-  font-family: "MuseoSansCyrlW03-300";
+  font-family: "MuseoSansCyrl";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;

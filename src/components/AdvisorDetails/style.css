@@ -1,8 +1,21 @@
 @import "~antd/dist/antd.css";
 @font-face {
-  font-family: "MuseoSansCyrlW03-300";
-  src: url("../../assets/Fonts/Museo\ Sans\ Cyrl\ W03\ 300.otf");
+  font-family: "MuseoSansCyrl";
+  src: url("../../assets/Fonts/MuseoSansCyrl-300.otf");
+  font-weight: 300;
 }
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("../../assets/Fonts/MuseoSansCyrl-500.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("../../assets/Fonts/MuseoSansCyrl-700.otf");
+  font-weight: 700;
+}
+
 .advisor-details-wrapper {
   padding: 24px;
   width: 392px;
@@ -12,7 +25,7 @@
 }
 
 .advisor-data {
-  font-family: "MuseoSansCyrlW03-300";
+  font-family: "MuseoSansCyrl";
   display: flex;
   padding-bottom: 30px;
 }
@@ -74,7 +87,7 @@
 }
 
 .statistics-details {
-  font-family: "MuseoSansCyrlW03-300";
+  font-family: "MuseoSansCyrl";
   font-style: normal;
   font-weight: normal;
   display: flex;
@@ -99,7 +112,7 @@
 }
 
 .advisor-bio .bio {
-  font-family: "MuseoSansCyrlW03-300";
+  font-family: "MuseoSansCyrl";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -110,7 +123,7 @@
   padding-right: 25px;
 }
 .more-btn {
-  font-family: "MuseoSansCyrlW03-300";
+  font-family: "MuseoSansCyrl";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
