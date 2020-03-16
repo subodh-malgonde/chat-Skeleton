@@ -3,10 +3,16 @@ import "./style.css";
 import "./responsive.css";
 import Input from "../../components/Input/Input";
 
+setTimeout(function() {
+  var messages = document.getElementById("messageBody");
+  var scrollHeight = document.getElementById("messageBody").scrollHeight;
+  messages.scrollTop = scrollHeight;
+}, 0);
+
 const Message = props => {
   return (
     <div className="chat-wrapper">
-      <div className="chat-messages-wrapper">
+      <div className="chat-messages-wrapper" id="messageBody">
         <div className="received-message">
           <p className="received-text">
             Hi Anantha, I need help with starting my mutual fund investments. My
