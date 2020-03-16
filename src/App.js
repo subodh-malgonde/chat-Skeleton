@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./App-responsive.css";
 import Navbar from "./components/Navbar/Navbar";
 import Layout from "./containers/Layout/Layout";
 

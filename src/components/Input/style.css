@@ -1,5 +1,5 @@
 .user-message {
-  display: block;
+  display: table;
   width: 93.5%;
   height: 64px;
   border: 1px solid #4d7cea;
@@ -7,8 +7,8 @@
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
+  /* left: 0;
+  right: 0; */
   bottom: 24px;
   background-color: #ffffff;
 }
@@ -17,7 +17,7 @@
   display: table-cell;
   width: 75%;
   vertical-align: middle;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 .divider {
   display: table-cell;

@@ -20,12 +20,10 @@
   .advisor-details-wrapper {
     margin-left: 12px;
     margin-right: 12px;
-    /* max-height: 1000px; */
-  }
-  .advisor-details-wrapper {
     padding: 24px;
     min-width: 248px;
   }
+
   .advisor-data {
     display: block;
     padding-bottom: 12px;
@@ -99,6 +97,9 @@
 /* ============================ Smart Phones ============================ */
 
 @media (max-width: 767px) {
+  .advisor-details-wrapper {
+    display: none;
+  }
 }
 
 @media (max-width: 359px) {

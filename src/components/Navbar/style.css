@@ -11,7 +11,6 @@
   src: url("../../assets/Fonts/MuseoSansCyrl-500.otf");
   font-weight: normal;
 }
-
 @font-face {
   font-family: "MuseoSansCyrl";
   src: url("../../assets/Fonts/MuseoSansCyrl-700.otf");
@@ -136,4 +135,80 @@ a:hover {
 .logout-icon {
   height: 100%;
   vertical-align: middle;
+}
+
+/* Mobile NavBar */
+.mobile-nav {
+  height: 72px;
+  background: linear-gradient(180deg, #1f49ad 0%, #001f66 100%);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  display: none;
+  padding: 0px 20px;
+}
+.toggle-icon {
+  width: 20%;
+  height: 100%;
+  position: relative;
+}
+.toggle-icon img {
+  cursor: pointer;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.mobile-advisor-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.mobile-advisor-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.mobile-advisor-name {
+  font-family: "MuseoSansCyrl";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.mobile-infoIcon {
+  margin-right: -10px;
+}
+.mobile-messages-number-wrapper {
+  position: absolute;
+  background-color: #ffffff;
+  width: 17px;
+  height: 17px;
+  border-radius: 100px;
+  border: 2px solid #1f49ad;
+  top: 17px;
+  right: 17px;
+  left: 20px;
+}
+.mobile-messages-number {
+  color: #1f49ad;
+  position: absolute;
+  font-family: "MuseoSansCyrl";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  top: -2.5px;
+  right: 0.5px;
 }

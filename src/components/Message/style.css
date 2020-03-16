@@ -68,7 +68,7 @@
 .chat-wrapper .received-message .details {
   position: absolute;
   left: 360px;
-  z-index: 1;
+  z-index: 0;
   bottom: 12px;
 }
 .chat-wrapper .sent-message .details {
@@ -107,7 +107,7 @@
   height: 24px;
   position: absolute;
   left: 45%;
-  z-index: 1;
+  z-index: 0;
   bottom: -10px;
   background: #fff;
   color: #8895a7;

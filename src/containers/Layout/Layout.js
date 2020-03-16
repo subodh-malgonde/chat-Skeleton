@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
+import "./responsive.css";
 import Message from "../../components/Message/Message";
 import AdvisorDetails from "../../components/AdvisorDetails/AdvisorDetails";
 

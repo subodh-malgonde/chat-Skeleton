@@ -1,39 +1,25 @@
 /* ============================ Medias =========================== */
 
 @media (min-width: 1200px) {
-  .mobile-nav {
-    display: none;
-  }
 }
 
 /* ============================ Wide Tablets ============================ */
 
 @media (max-width: 1199px) {
-  .header-layout .ant-layout-header {
-    padding: 0px 40px 0px 40px !important;
-  }
-  .mobile-nav {
-    display: none;
-  }
 }
 
 /* ============================ Tablets ============================ */
 
 @media (max-width: 991px) {
-  .mobile-nav {
-    display: none;
-  }
 }
 
 /* ============================ Smart Phones ============================ */
 
 @media (max-width: 767px) {
-  .header-layout {
-    display: none;
-  }
-  .mobile-nav {
-    display: flex;
-    justify-content: start;
+  .content-wrapper {
+    margin-top: 0px;
+    margin-right: 0xp;
+    padding: 0px;
   }
 }
 

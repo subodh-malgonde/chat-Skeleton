@@ -16,6 +16,51 @@
 /* ============================ Smart Phones ============================ */
 
 @media (max-width: 767px) {
+  .input-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .user-message {
+    height: 24px;
+    background-color: #f8f9fa;
+    /* padding: 8px 16px; */
+    padding-left: 16px;
+    border: none;
+    display: table;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+  }
+  .message-wrapper {
+    padding-top: 0px;
+  }
+  .message-wrapper .input-msg {
+    padding-left: 0px;
+    line-height: 24px;
+  }
+  .user-message .divider {
+    padding: 8px 0px;
+    padding-right: 13px;
+  }
+  .user-message .attachFile {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-right: 18px;
+  }
+  .user-message .sendMessage {
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-right: 20px;
+  }
+  .user-message .sendMessage img {
+    width: 21px;
+    height: 18px;
+  }
 }
 
 @media (max-width: 359px) {

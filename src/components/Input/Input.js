@@ -10,16 +10,18 @@ const Input = props => {
       <div className="message-wrapper">
         <input type="text" placeholder="Your messages" className="input-msg" />
       </div>
-      <div className="divider">
-        <div
-          style={{ height: "40px", width: "1px", backgroundColor: "#E1E7EC" }}
-        ></div>
-      </div>
-      <div className="attachFile">
-        <img src={attachfileIcon} alt="" />
-      </div>
-      <div className="sendMessage">
-        <img src={sendIcon} alt="" />
+      <div className="sendIcons">
+        <div className="divider">
+          <div
+            style={{ height: "40px", width: "1px", backgroundColor: "#E1E7EC" }}
+          ></div>
+        </div>
+        <div className="attachFile">
+          <img src={attachfileIcon} alt="" />
+        </div>
+        <div className="sendMessage">
+          <img src={sendIcon} alt="" />
+        </div>
       </div>
     </div>
   );
