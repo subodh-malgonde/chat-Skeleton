@@ -54,7 +54,7 @@
   }
   .chat-wrapper .received-message,
   .chat-wrapper .sent-message {
-    max-width: 240px;
+    max-width: 300px;
   }
   .chat-wrapper .received-message {
     margin-bottom: 16px;
@@ -78,10 +78,10 @@
   }
 
   .chat-wrapper .received-message .details {
-    left: 170px;
+    left: 220px;
   }
   .chat-wrapper .sent-message .details {
-    left: 135px;
+    left: 195px;
   }
   .chat-wrapper .sent-message .details .time {
     margin-right: 10px;
@@ -93,4 +93,14 @@
 }
 
 @media (max-width: 359px) {
+  .chat-wrapper .received-message,
+  .chat-wrapper .sent-message {
+    max-width: 260px;
+  }
+  .chat-wrapper .received-message .details {
+    left: 180px;
+  }
+  .chat-wrapper .sent-message .details {
+    left: 155px;
+  }
 }
