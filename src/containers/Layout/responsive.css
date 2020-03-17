@@ -17,6 +17,7 @@
 
 @media (max-width: 767px) {
   .content-wrapper {
+    display: block !important;
     margin-top: 0px;
     margin-right: 0xp;
     padding: 0px;

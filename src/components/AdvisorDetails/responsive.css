@@ -21,7 +21,8 @@
     margin-left: 12px;
     margin-right: 12px;
     padding: 24px;
-    min-width: 248px;
+    min-width: auto;
+    width: auto;
   }
 
   .advisor-data {
@@ -70,37 +71,73 @@
     width: 110px;
     height: 110px;
   }
-  /* ScrollBar Style */
-  /* width */
-  .advisor-bio .bio::-webkit-scrollbar {
-    width: 5px;
-  }
-
-  /* Track */
-  .advisor-bio .bio::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #e1e7ec;
-    border-radius: 15px;
-  }
-
-  /* Handle */
-  .advisor-bio .bio::-webkit-scrollbar-thumb {
-    background: #bebebe;
-    border-radius: 15px;
-  }
-
-  /* Handle on hover */
-  .advisor-bio .bio::-webkit-scrollbar-thumb:hover {
-    background: #a0a0a0;
-  }
 }
 
 /* ============================ Smart Phones ============================ */
 
 @media (max-width: 767px) {
+  .advisor-mobile-wrapper {
+    /* display: none; */
+  }
   .advisor-details-wrapper {
-    display: none;
+    height: auto;
+    width: auto;
+    min-width: auto;
+    margin: 0px;
+    padding: 32px 16px;
+    padding-bottom: 60px;
+  }
+  .advisor-data {
+    padding-bottom: 20px;
+  }
+  .advisor-personal-info .advisor-title,
+  .advisor-status {
+    padding-bottom: 10px;
+  }
+  .mobile-info {
+    height: 72px;
+    background: linear-gradient(180deg, #1f49ad 0%, #001f66 100%);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-info-advisor-data {
+    width: 100%;
+    position: relative;
+  }
+  .mobile-backIcon {
+    position: absolute;
+    left: 24px;
+    top: 2px;
+    cursor: pointer;
+  }
+  .advisor-personal-info .advisor-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.7px;
+    color: #3d4852;
+  }
+  .statistics-details {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .statistics-details div {
+    text-align: left;
+  }
+  .advisor-bio .bio {
+    height: auto;
+    overflow-y: auto;
+    margin-top: 16px;
+    padding-right: 24px;
   }
 }
-
 @media (max-width: 359px) {
 }

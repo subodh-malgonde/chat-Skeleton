@@ -1,5 +1,43 @@
+/* ============================ Medias =========================== */
+
+@media (min-width: 1200px) {
+  .mobile {
+    display: none;
+  }
+  /* .desktop {
+    display: ;
+  } */
+}
+
+/* ============================ Wide Tablets ============================ */
+
+@media (max-width: 1199px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/* ============================ Tablets ============================ */
+
+@media (max-width: 991px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/* ============================ Smart Phones ============================ */
+
 @media (max-width: 767px) {
   .App {
     padding-bottom: 0px;
   }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 359px) {
 }

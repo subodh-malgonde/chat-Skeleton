@@ -1,6 +1,9 @@
 import React from "react";
 import "./style.css";
 import "./responsive.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import { withRouter } from "react-router";
+
 import logoutIcon from "../../assets/image/logoutIcon.svg";
 import messageIcon from "../../assets/image/messageIcon.svg";
 import toggleIcon from "../../assets/image/toggleIcon.svg";
@@ -57,20 +60,26 @@ const Navbar = props => {
             <span className="mobile-messages-number">3</span>
           </span>
         </div>
-        <div className="mobile-advisor-data">
-          <div className="name-img">
-            <img
-              src="https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg"
-              alt=""
-              className="mobile-advisor-img"
-            />
-            <span className="mobile-advisor-name">Anantha Raman</span>
+        <Router>
+          <div
+            className="mobile-advisor-data"
+            onClick={() => props.history.push("/AdvisorDetailsMobile")}
+          >
+            <div className="name-img">
+              <img
+                src="https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg"
+                alt=""
+                className="mobile-advisor-img"
+              />
+              <span className="mobile-advisor-name">Anantha Raman</span>
+            </div>
+            <img src={infoIcon} alt="" className="mobile-infoIcon" />
           </div>
-          <img src={infoIcon} alt="" className="mobile-infoIcon" />
-        </div>
+        </Router>
       </div>
     </>
   );
 };
 
-export default Navbar;
+export default withRouter(Navbar);
+// export default Navbar;
