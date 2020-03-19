@@ -84,7 +84,7 @@ class Navbar extends React.Component {
         <div className="mobile-nav">
           <div className={show_class + " sideNav"}>
             {this.state.isActive ? (
-              <div class="sideMenu-close-wrapper">
+              <div className="sideMenu-close-wrapper">
                 <SideMenu
                   isActive={this.state.isActive}
                   onChange={this.handleActiveChange}

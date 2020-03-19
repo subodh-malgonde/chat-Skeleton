@@ -70,6 +70,8 @@ class Message extends React.Component {
             <hr className="message-divider" />
             <span className="date"> Today </span>
           </div>
+          {/* ******IMPORTANT***** 
+          Don't forget to put the ref for the last message. It's used to make the scroll at bottom onload*/}
           <div
             className="received-message"
             ref={el => {

@@ -43,7 +43,7 @@ class SideMenu extends React.Component {
 
       document.body.style.position = "";
       that.handleActiveChange();
-    }, 500);
+    }, 250);
   };
 
   handleActiveChange = () => {
@@ -219,10 +219,7 @@ class SideMenu extends React.Component {
               <Menu.Item key="12" className="sideMenu-li">
                 <div className="menu-item-content-wrapper">
                   <img src={questions} alt="" className="menu-item-icon" />
-                  <span className="menu-item-text">
-                    {" "}
-                    questions@dhanwise.com
-                  </span>
+                  <span className="menu-item-text">questions@dhanwise.com</span>
                 </div>
               </Menu.Item>
               <Menu.Item key="13" className="sideMenu-li">

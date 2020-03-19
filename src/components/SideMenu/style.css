@@ -202,5 +202,5 @@
 .sideMenuTest {
   width: 0px !important;
   opacity: 1;
-  transition: width 0.5s, opacity 0.5s linear;
+  transition: all opacity 0.3s linear;
 }
