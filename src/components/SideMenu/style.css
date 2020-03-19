@@ -1,0 +1,188 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("../../assets/Fonts/MuseoSansCyrl-300.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("../../assets/Fonts/MuseoSansCyrl-500.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("../../assets/Fonts/MuseoSansCyrl-700.otf");
+  font-weight: 700;
+}
+
+.sideMenu-ul {
+  background: linear-gradient(180deg, #1f49ad 0%, #001f66 100%) !important;
+  /* width: 264px !important; */
+  width: 100% !important;
+  border-right: none !important;
+  text-align: left;
+  padding-top: 12px;
+  height: 100vh !important;
+}
+.sideMenu-li {
+  background: transparent !important;
+  color: #ffffff;
+  height: auto !important;
+}
+.sideMenu-li:hover {
+  color: #ffffff;
+}
+/* subMenu lis*/
+.sideMenu-li .ant-menu-sub.ant-menu-inline > .ant-menu-item {
+  background: transparent !important;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px !important;
+  height: auto !important;
+  max-width: 170px;
+}
+.sideMenu-li > .ant-menu {
+  background: transparent !important;
+  padding-left: 60px;
+  padding-top: 15px;
+  padding-right: 24px;
+}
+.sideMenu-ul .ant-menu-item {
+  padding: 10px 24px 10px 20px !important;
+  white-space: normal;
+}
+.sideMenu-ul .ant-menu-item::after {
+  border-right: none;
+}
+.sideMenu-li:first-child {
+  text-align: right;
+  padding: 5px 24px 0px 20px !important;
+}
+.ant-menu-submenu-inline
+  > .ant-menu-submenu-title
+  .ant-menu-submenu-arrow::before,
+.ant-menu-submenu-inline
+  > .ant-menu-submenu-title
+  .ant-menu-submenu-arrow::after {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1)
+  );
+  width: 10px;
+  height: 1.5px;
+}
+.ant-menu-submenu-open.ant-menu-submenu-inline
+  > .ant-menu-submenu-title
+  .ant-menu-submenu-arrow::before {
+  transform: rotate(-45deg) translateX(4px);
+}
+.ant-menu-submenu-open.ant-menu-submenu-inline
+  > .ant-menu-submenu-title
+  .ant-menu-submenu-arrow::after {
+  transform: rotate(45deg) translateX(-4px);
+}
+.ant-menu-submenu-inline
+  > .ant-menu-submenu-title
+  .ant-menu-submenu-arrow::before {
+  transform: rotate(-135deg) translateX(4px);
+}
+.ant-menu-submenu-inline
+  > .ant-menu-submenu-title
+  .ant-menu-submenu-arrow::after {
+  transform: rotate(-45deg) translateX(-4px);
+}
+.menu-item-content-wrapper {
+  display: flex;
+  height: auto;
+  position: relative;
+}
+.menu-item-content-wrapper .menu-item-icon {
+  margin-right: 11px;
+}
+.menu-item-content-wrapper .menu-item-text {
+  font-family: "MuseoSansCyrl";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+.menu-item-content-wrapper .ant-menu-submenu-arrow {
+  margin-right: 12px;
+}
+.ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+  top: 55%;
+  margin-right: 10px;
+}
+.sideMenu-subMenu ul {
+  padding-left: 40px;
+}
+.sideMenu-subMenu > .ant-menu-submenu-title {
+  padding: 10px 24px 10px 20px !important;
+  height: auto;
+}
+.submenu-item-content-wrapper {
+  line-height: 18px !important;
+  margin-bottom: 18px;
+}
+.ant-menu-submenu-title:hover {
+  color: #ffffff;
+}
+.ant-menu-submenu-inline
+  > .ant-menu-submenu-title:hover
+  .ant-menu-submenu-arrow::before {
+  background: #ffffff !important;
+  color: #ffffff !important;
+}
+.ant-menu-submenu-inline
+  > .ant-menu-submenu-title:hover
+  .ant-menu-submenu-arrow::after {
+  background: #ffffff;
+  color: #ffffff !important;
+}
+.side-menu-divider {
+  width: 232px;
+  margin: auto;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+#menu-item-icon-avdisor-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#sidemenu-advisor-name {
+  padding-top: 10px !important;
+}
+#menu-item-icon-messages-number {
+  position: absolute;
+  right: -18px;
+  top: 35px;
+}
+#msg-number {
+  font-family: "MuseoSansCyrl";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  right: 3px;
+  top: 57%;
+}
+#your-advisor-wrapper {
+  display: block !important;
+}
+.sideMenu-ul .ant-menu-item.your-advisor {
+  background: rgba(255, 255, 255, 0.1) !important;
+  padding: 10px 24px 24px 20px !important;
+}
+#your-advisor {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
