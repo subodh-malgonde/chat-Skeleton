@@ -11,6 +11,7 @@ class Message extends React.Component {
     var scrollHeight = document.getElementById("messageBody").scrollHeight;
     messages.scrollTop = scrollHeight;
   }
+
   componentDidMount() {
     this.scrollAtBottom();
   }

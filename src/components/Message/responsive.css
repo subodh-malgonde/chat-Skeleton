@@ -52,6 +52,7 @@
     padding: 0px;
     position: relative;
     min-height: 100vh;
+    padding-top: 72px;
   }
   .chat-wrapper .received-message,
   .chat-wrapper .sent-message {

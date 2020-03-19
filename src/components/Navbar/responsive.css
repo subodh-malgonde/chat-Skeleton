@@ -36,6 +36,9 @@
   .mobile-nav {
     display: flex;
     justify-content: start;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
   }
   .sideNav {
     height: 100%;
