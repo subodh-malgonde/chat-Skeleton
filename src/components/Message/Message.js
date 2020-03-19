@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import "./style.css";
 import "./responsive.css";
 import Input from "../../components/Input/Input";
@@ -6,23 +7,18 @@ import readmarksIcon from "../../assets/image/readmarksIcon.svg";
 import unreadmarksIcon from "../../assets/image/unreadmarksIcon.svg";
 
 class Message extends React.Component {
-  scrollAtBottom() {
-    var messages = document.getElementById("messageBody");
-    var scrollHeight = document.getElementById("messageBody").scrollHeight;
-    messages.scrollTop = scrollHeight;
+  scrollToBottom() {
+    this.messagesEnd.scrollIntoView(false);
+    this.messagesEnd.scrollIntoView({ behavior: "smooth" });
   }
 
   componentDidMount() {
-    this.scrollAtBottom();
+    this.scrollToBottom();
   }
+
   render() {
     return (
-      <div
-        className="chat-wrapper"
-        onClick={() => {
-          console.log("hello");
-        }}
-      >
+      <div className="chat-wrapper">
         <div className="chat-messages-wrapper" id="messageBody">
           <div className="received-message">
             <p className="received-text">
@@ -74,7 +70,12 @@ class Message extends React.Component {
             <hr className="message-divider" />
             <span className="date"> Today </span>
           </div>
-          <div className="received-message">
+          <div
+            className="received-message"
+            ref={el => {
+              this.messagesEnd = el;
+            }}
+          >
             <p className="received-text">
               I am based in Mumbai and my PAN is AAAASSSS
             </p>
