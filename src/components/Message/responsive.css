@@ -82,10 +82,10 @@
     left: 220px;
   }
   .chat-wrapper .sent-message .details {
-    left: 195px;
+    left: 200px;
   }
   .chat-wrapper .sent-message .details .time {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .message-date {
     margin-top: 22px;

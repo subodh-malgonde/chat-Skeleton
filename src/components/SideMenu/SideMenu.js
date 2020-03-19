@@ -32,6 +32,7 @@ class SideMenu extends React.Component {
     this.setState({
       isActive: !this.state.isActive
     });
+    document.body.style.position = "";
     this.handleActiveChange();
   };
 
@@ -64,13 +65,8 @@ class SideMenu extends React.Component {
             className="sideMenu-ul"
           >
             <Menu.Item key="1" className="sideMenu-li">
-              <div className="test">
-                <img
-                  src={closeSideMenuIcon}
-                  alt=""
-                  className="close-icon"
-                  onClick={this.handleHide.bind(this)}
-                />
+              <div className="test" onClick={this.handleHide.bind(this)}>
+                <img src={closeSideMenuIcon} alt="" className="close-icon" />
               </div>
             </Menu.Item>
             {this.state.isLoggedIn ? (

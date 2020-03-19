@@ -23,12 +23,14 @@ class Navbar extends React.Component {
   };
   handleActiveChange = isActive => {
     this.setState({ isActive: isActive });
+    // document.body.style.top = `-${window.scrollY}px`;
   };
 
   handleShow = () => {
     this.setState({
       isActive: true
     });
+    document.body.style.position = "fixed";
   };
   handleHide = () => {
     this.setState({

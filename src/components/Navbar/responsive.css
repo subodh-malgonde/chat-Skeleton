@@ -49,9 +49,12 @@
     transition: 0.5s;
   }
   .sideMenuNav {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     left: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-bottom: 20px;
   }
 }
 
