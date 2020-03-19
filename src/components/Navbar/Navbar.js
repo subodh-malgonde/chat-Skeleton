@@ -21,7 +21,6 @@ class Navbar extends React.Component {
   }
   state = {
     isActive: false
-    // firstTime: false
   };
   handleActiveChange = isActive => {
     this.setState({ isActive: isActive });
@@ -85,10 +84,12 @@ class Navbar extends React.Component {
         <div className="mobile-nav">
           <div className={show_class + " sideNav"}>
             {this.state.isActive ? (
-              <SideMenu
-                isActive={this.state.isActive}
-                onChange={this.handleActiveChange}
-              />
+              <div class="sideMenu-close-wrapper">
+                <SideMenu
+                  isActive={this.state.isActive}
+                  onChange={this.handleActiveChange}
+                />
+              </div>
             ) : null}
           </div>
           <div className="toggle-icon">

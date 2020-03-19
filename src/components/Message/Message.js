@@ -17,7 +17,12 @@ class Message extends React.Component {
   }
   render() {
     return (
-      <div className="chat-wrapper">
+      <div
+        className="chat-wrapper"
+        onClick={() => {
+          console.log("hello");
+        }}
+      >
         <div className="chat-messages-wrapper" id="messageBody">
           <div className="received-message">
             <p className="received-text">
