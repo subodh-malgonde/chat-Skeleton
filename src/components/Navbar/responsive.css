@@ -45,19 +45,19 @@
     width: 0px;
     position: absolute;
     z-index: 1;
-    top: 80px;
+    top: 0px;
     left: 0;
-    width: 264px !important;
-    /* overflow-x: hidden; */
-    transition: 0.5s;
+    width: 0px !important;
+    opacity: 0.4;
   }
-  .sideMenuNav {
-    position: fixed;
-    z-index: 1;
-    left: 0px;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    padding-bottom: 20px;
+
+  .sideMenuNav1 {
+    width: 264px !important;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .sideMenuNav2 {
+    width: 0px !important;
   }
 }
 

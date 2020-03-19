@@ -3,6 +3,7 @@ import "./style.css";
 import "./responsive.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import { withRouter } from "react-router";
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import SideMenu from "../SideMenu/SideMenu";
 import logoutIcon from "../../assets/image/logoutIcon.svg";
 import messageIcon from "../../assets/image/messageIcon.svg";
@@ -20,10 +21,10 @@ class Navbar extends React.Component {
   }
   state = {
     isActive: false
+    // firstTime: false
   };
   handleActiveChange = isActive => {
     this.setState({ isActive: isActive });
-    // document.body.style.top = `-${window.scrollY}px`;
   };
 
   handleShow = () => {
@@ -39,8 +40,7 @@ class Navbar extends React.Component {
   };
 
   render() {
-    let show_class = this.state.isActive ? "sideMenuNav" : null;
-
+    let show_class = this.state.isActive ? "sideMenuNav1" : "sideMenuNav2";
     return (
       <>
         <Layout className="header-layout">
@@ -83,7 +83,7 @@ class Navbar extends React.Component {
           </Header>
         </Layout>
         <div className="mobile-nav">
-          <div className="sideNav " className={show_class}>
+          <div className={show_class + " sideNav"}>
             {this.state.isActive ? (
               <SideMenu
                 isActive={this.state.isActive}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import { Menu } from "antd";
 
 import closeSideMenuIcon from "../../assets/image/sideMenuIcons/closeSideMenuIcon.svg";
@@ -25,19 +26,28 @@ class SideMenu extends React.Component {
   state = {
     isActive: this.props.isActive,
     isLoggedIn: true,
+    firstTime: false,
     openKeys: ["sub3"]
   };
 
   handleHide = () => {
+    var that = this;
     this.setState({
-      isActive: !this.state.isActive
+      firstTime: true
     });
-    document.body.style.position = "";
-    this.handleActiveChange();
+    setTimeout(function() {
+      that.setState({
+        isActive: !that.state.isActive,
+        firstTime: false
+      });
+
+      document.body.style.position = "";
+      that.handleActiveChange();
+    }, 500);
   };
 
   handleActiveChange = () => {
-    this.props.onChange(!this.state.isActive);
+    this.props.onChange(this.state.isActive);
   };
 
   onOpenChange = openKeys => {
@@ -54,6 +64,8 @@ class SideMenu extends React.Component {
   };
 
   render() {
+    let hide_class = this.state.firstTime ? "sideMenuTest" : null;
+
     return (
       <>
         {this.state.isActive ? (
@@ -62,7 +74,7 @@ class SideMenu extends React.Component {
             openKeys={this.state.openKeys}
             onOpenChange={this.onOpenChange}
             style={{ width: 256 }}
-            className="sideMenu-ul"
+            className={hide_class + " sideMenu-ul"}
           >
             <Menu.Item key="1" className="sideMenu-li">
               <div className="test" onClick={this.handleHide.bind(this)}>

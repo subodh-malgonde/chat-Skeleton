@@ -198,3 +198,9 @@
 .ant-menu-inline .ant-menu-submenu-title {
   width: 100% !important;
 }
+
+.sideMenuTest {
+  width: 0px !important;
+  opacity: 0;
+  transition: width 0.5s, opacity 0.9s linear;
+}

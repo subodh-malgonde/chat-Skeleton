@@ -47,7 +47,6 @@
 
 @media (max-width: 767px) {
   .chat-wrapper {
-    /* display: none; */
     margin-right: 0px;
     padding: 0px;
     position: relative;
